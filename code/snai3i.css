@@ -599,15 +599,18 @@ transform: scale(1);
 
 @media (max-width: 768px) {
 
-  .boddy {
-    flex-direction: column;
-    gap: 20px;
-    padding: 15px;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../imgs/sign-in.png);
-
-  }
+ .boddy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../imgs/sign-in.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
   .right {
     width: 100%;
@@ -716,3 +719,4 @@ transform: scale(1);
     margin: 5px 0;
   }
 }
+
