@@ -652,3 +652,67 @@ transform: scale(1);
     margin-top: 10px;
   }
 }
+
+@media (max-width: 768px) {
+
+  #bdd {
+    min-height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #img-create img {
+    width: 200px;
+    max-width: 90%;
+  }
+
+  .signup {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .signup-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .signup-title {
+    font-size: 22px;
+  }
+
+  .form-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input-field {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .btn-confirm {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .btn-confirm a {
+    display: block;
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .end-01,
+  .end-02 {
+    position: static;
+    font-size: 13px;
+    margin: 5px 0;
+  }
+}
